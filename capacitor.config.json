@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "datepicker",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
