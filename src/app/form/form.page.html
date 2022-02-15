@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>form</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input [value]=""></ion-input>
+    <ion-button fill="clear" id="open-date-input-2">
+      <ion-icon icon="calendar"></ion-icon>
+    </ion-button>
+    <ion-popover trigger="open-date-input-2" show-backdrop="false">
+      <ng-template>
+        <ion-datetime
+          #popoverDatetime2
+          presentation="date"
+        ></ion-datetime>
+      </ng-template>
+    </ion-popover>
+  </ion-item>
+</ion-content>

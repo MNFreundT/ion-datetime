@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'modal',
+    loadChildren: () => import('./modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'form',
+    loadChildren: () => import('./form/form.module').then( m => m.FormPageModule)
+  },
 ];
 
 @NgModule({
